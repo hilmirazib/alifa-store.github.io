@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="theme-color" content="#f9a3ac" />
+    <title>Alifa Store</title>
+</head>
+
+<body>
+    <div class="container cart-header">
+        <div class="row mt-5 text-center">
+            <div class="col">
+                <h3>Your Cart</h3>
+                <p>Pastikan barang anda terbayar lunas</p>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumbs -->
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Cart Chackout</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- Akhir Breadcrumbs -->
+
+    <!-- Checkout -->
+    <section class="checkout">
+        <div class="container">
+            <div class="row justify-content-between" style="margin-bottom: 100px">
+                <div class="col-lg-6">
+                    <h4 class="mb-4">Your Items</h4>
+                    <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="img/cart/item1.png" />
+                        </div>
+                        <div class="col-4">
+                            <h5 class="m-0">Jeans Papp</h5>
+                            <p class="m-0" style="color: #b7b7b7">IDR 280.000.100</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-sm" style="background-color: #eaeaef; color: white"><img src="img/min.png" alt="" /></button>
+                            <span class="mx-2">20</span>
+                            <button type="button" class="btn btn-sm" style="color: white"><img src="img/plus.png" alt="" /></button>
+                        </div>
+                        <div class="col-2 text-right">
+                            <button type="button" class="btn btn-sm" style="color: white"><img src="img/ex.png" alt="" /></button>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="img/cart/item1.png" />
+                        </div>
+                        <div class="col-4">
+                            <h5 class="m-0">Jeans Papp</h5>
+                            <p class="m-0" style="color: #b7b7b7">IDR 280.000.100</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-sm" style="background-color: #eaeaef; color: white"><img src="img/min.png" alt="" /></button>
+                            <span class="mx-2">20</span>
+                            <button type="button" class="btn btn-sm" style="color: white"><img src="img/plus.png" alt="" /></button>
+                        </div>
+                        <div class="col-2 text-right">
+                            <button type="button" class="btn btn-sm" style="color: white"><img src="img/ex.png" alt="" /></button>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="img/cart/item1.png" />
+                        </div>
+                        <div class="col-4">
+                            <h5 class="m-0">Jeans Papp</h5>
+                            <p class="m-0" style="color: #b7b7b7">IDR 280.000.100</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-sm" style="background-color: #eaeaef; color: white"><img src="img/min.png" alt="" /></button>
+                            <span class="mx-2">20</span>
+                            <button type="button" class="btn btn-sm" style="color: white"><img src="img/plus.png" alt="" /></button>
+                        </div>
+                        <div class="col-2 text-right">
+                            <button type="button" class="btn btn-sm" style="color: white"><img src="img/ex.png" alt="" /></button>
+                        </div>
+                    </div>
+
+                    <h4 class="mb-3" style="margin-top: 100px">Your Address</h4>
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Alamat Lengkap" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Address II</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <select class="form-select form-select-md mb-3" aria-label=".form-select-md example">
+                <option selected>City</option>
+                <option value="1">Bekasi</option>
+                <option value="2">Bandung</option>
+                <option value="3">Tasikmalaya</option>
+              </select>
+                        <select class="form-select form-select-md mb-3" aria-label=".form-select-md example">
+                <option selected>Adress</option>
+                <option value="1">Salawu</option>
+                <option value="2">Cibiru</option>
+                <option value="3">Ciantra</option>
+              </select>
+                    </form>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="card rounded-0 checkout-detail">
+                        <div class="card-body">
+                            <h5 class="card-title">Informasi Biaya</h5>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Jeans Papp</h6>
+                                    <small style="color: #b7b7b7">2 Items</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR 600.000.000</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Jeans Papp</h6>
+                                    <small style="color: #b7b7b7">2 Items</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR 600.000.000</h6>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Courier</h6>
+                                    <small style="color: #b7b7b7">JNT Express</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR 201.000</h6>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Tax</h6>
+                                    <small style="color: #b7b7b7">Negara 20%</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success">IDR 1.799.000</h6>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Eid Promo</h6>
+                                    <small style="color: #b7b7b7">10% OFF</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-danger">-IDR 50.000.000</h6>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Total Harga</h6>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-primary">IDR 1.520.940.300</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-3">
+                            <button type="button" class="btn btn-block" style="background-color: #eaeaef; color: #adadad">Cancel</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-block text-white" style="background-color: #f88064" data-toggle="modal" data-target="#checkoutModal">
+                  Checkout
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Checkout -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>
